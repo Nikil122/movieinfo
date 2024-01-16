@@ -8,8 +8,8 @@
             <img  class="card-img-top" src="{{i.img.url}}" width="200px" height="350px">
               <div class="card-body"> 
                 <h5 class="card-title">{{i.name}}</h5>
-                <p class="card-text">{{i.desc}}</p> 
-                <a href="{% url 'movieapp:detail' i.id %}">{{i.name}}</a>
+                <p class="card-text">{{i.desc}}</p>
+                <button type="button" class="btn btn-info"><a href="{% url 'movieapp:detail' i.id %}">More info</a></button>
               </div>
           </div>
         </div>
